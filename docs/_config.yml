@@ -1,0 +1,45 @@
+# GitHub Pages Configuration for Learning AutoML
+# https://github.com/tomakk/OReillyAutoMLBook
+
+title: Learning AutoML
+description: Code companion for Learning AutoML by O'Reilly Media. Complete Jupyter notebooks with production-ready implementations.
+url: https://tomakk.github.io
+baseurl: /OReillyAutoMLBook
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme (using no theme, custom HTML/CSS)
+theme: null
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+# Include files
+include:
+  - _config.yml
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# SEO
+author: O'Reilly Media
+twitter:
+  card: summary_large_image
+social:
+  name: Learning AutoML
+  links:
+    - https://github.com/tomakk/OReillyAutoMLBook
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning AutoML | O'Reilly Media</title>
+    <meta name="description" content="Code companion for Learning AutoML by O'Reilly Media. Complete Jupyter notebooks with production-ready implementations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Source+Code+Pro:wght@400;500&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Learning AutoML</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#chapters">Chapters</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#getting-started">Get Started</a></li>
+                <li><a href="https://github.com/tomakk/OReillyAutoMLBook" class="btn btn-outline" target="_blank">GitHub Repo</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">O'Reilly Media</div>
+                <h1>Learning AutoML</h1>
+                <p class="hero-subtitle">A Practitioner's Guide to Automated Machine Learning</p>
+                <p class="hero-description">
+                    Complete code companion with production-ready Jupyter notebooks covering
+                    feature engineering, neural architecture search, tabular data, NLP, time series,
+                    computer vision, and MLOps deployment.
+                </p>
+                <div class="hero-actions">
+                    <a href="#chapters" class="btn btn-primary">Explore Notebooks</a>
+                    <a href="#getting-started" class="btn btn-secondary">Quick Start</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Chapters</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Case Studies</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Code Examples</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="book-cover">
+                    <div class="book-spine"></div>
+                    <div class="book-front">
+                        <div class="book-animal">🦊</div>
+                        <div class="book-title-small">Learning</div>
+                        <div class="book-title-large">AutoML</div>
+                        <div class="book-subtitle">Automated Machine Learning<br>for Practitioners</div>
+                        <div class="book-publisher">O'REILLY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Technologies -->
+    <section class="tech-bar">
+        <div class="container">
+            <div class="tech-items">
+                <span class="tech-item">AutoGluon</span>
+                <span class="tech-item">PyTorch</span>
+                <span class="tech-item">TensorFlow</span>
+                <span class="tech-item">MLflow</span>
+                <span class="tech-item">Optuna</span>
+                <span class="tech-item">Ray Tune</span>
+                <span class="tech-item">FastAPI</span>
+                <span class="tech-item">Airflow</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapters Section -->
+    <section id="chapters" class="chapters">
+        <div class="container">
+            <div class="section-header">
+                <h2>Chapter Notebooks</h2>
+                <p>Production-ready code implementations for every major topic</p>
+            </div>
+
+            <div class="chapter-grid">
+                <!-- Chapter 4 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">04</div>
+                    <div class="chapter-content">
+                        <h3>Automated Feature Engineering</h3>
+                        <p>Master data preprocessing with intelligent profiling, outlier detection, encoding strategies, and multimodal feature fusion using a simulated e-commerce dataset.</p>
+                        <ul class="chapter-topics">
+                            <li>Data Quality Assessment</li>
+                            <li>Advanced Categorical Encoding</li>
+                            <li>Feature Selection Methods</li>
+                            <li>Multimodal Fusion</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter4.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 6 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">06</div>
+                    <div class="chapter-content">
+                        <h3>Neural Architecture Search</h3>
+                        <p>Implement NAS from scratch with search space design, evolutionary algorithms, DARTS, performance estimation strategies, and one-shot supernet training.</p>
+                        <ul class="chapter-topics">
+                            <li>Search Space Design</li>
+                            <li>Evolutionary & DARTS</li>
+                            <li>Successive Halving</li>
+                            <li>AutoKeras & Optuna</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter6.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 7 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">07</div>
+                    <div class="chapter-content">
+                        <h3>Working with Tabular Data</h3>
+                        <p>Complete guide to AutoGluon's TabularPredictor for classification and regression, from basics to advanced customization with SHAP interpretability.</p>
+                        <ul class="chapter-topics">
+                            <li>TabularPredictor Basics</li>
+                            <li>Automatic Data Processing</li>
+                            <li>SHAP Analysis</li>
+                            <li>Production Monitoring</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter7.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 8 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">08</div>
+                    <div class="chapter-content">
+                        <h3>Processing Text & NLP</h3>
+                        <p>Deep dive into text classification, NER, semantic matching, and multimodal text+tabular processing with AutoGluon's MultiModalPredictor.</p>
+                        <ul class="chapter-topics">
+                            <li>Text Classification</li>
+                            <li>Named Entity Recognition</li>
+                            <li>Semantic Matching</li>
+                            <li>Custom Preprocessing</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter8.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 9 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">09</div>
+                    <div class="chapter-content">
+                        <h3>Time Series Forecasting</h3>
+                        <p>Build forecasting systems with AutoGluon including Chronos-Bolt foundation models, probabilistic calibration, and business impact optimization.</p>
+                        <ul class="chapter-topics">
+                            <li>Multi-Series Forecasting</li>
+                            <li>Zero-Shot with Chronos</li>
+                            <li>Probabilistic Calibration</li>
+                            <li>Inventory Optimization</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter9.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 10 -->
+                <article class="chapter-card featured">
+                    <div class="chapter-number">10</div>
+                    <div class="chapter-content">
+                        <h3>Computer Vision</h3>
+                        <p>Retail product classification, multimodal image+text learning, CNNs vs Vision Transformers, object detection, and production deployment patterns.</p>
+                        <ul class="chapter-topics">
+                            <li>Image Classification</li>
+                            <li>Multimodal Learning</li>
+                            <li>Object Detection</li>
+                            <li>A/B Testing</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter10.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 11 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">11</div>
+                    <div class="chapter-content">
+                        <h3>MLOps Integration</h3>
+                        <p>Integrate AutoML into production with MLflow experiment tracking, model registry, Kubeflow pipelines, drift detection, and automated retraining.</p>
+                        <ul class="chapter-topics">
+                            <li>MLflow Tracking</li>
+                            <li>Model Registry</li>
+                            <li>Drift Detection</li>
+                            <li>Auto Retraining</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter11.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 12 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">12</div>
+                    <div class="chapter-content">
+                        <h3>Data Pipelines with Airflow</h3>
+                        <p>Build robust data pipelines with validation gates, point-in-time feature engineering, incremental processing, and data contracts.</p>
+                        <ul class="chapter-topics">
+                            <li>Data Validation</li>
+                            <li>Feature Engineering</li>
+                            <li>Incremental Processing</li>
+                            <li>Drift Detection</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter12.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Chapter 13 -->
+                <article class="chapter-card">
+                    <div class="chapter-number">13</div>
+                    <div class="chapter-content">
+                        <h3>Deployment & CI/CD</h3>
+                        <p>Production deployment patterns with FastAPI, shadow deployments, Prometheus metrics, Evidently drift detection, and continuous learning.</p>
+                        <ul class="chapter-topics">
+                            <li>FastAPI Serving</li>
+                            <li>Shadow Deployment</li>
+                            <li>Prometheus Metrics</li>
+                            <li>Continuous Learning</li>
+                        </ul>
+                        <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Chapter13.ipynb" class="chapter-link">
+                            View Notebook <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry Case Studies</h2>
+                <p>End-to-end production implementations with real business impact</p>
+            </div>
+
+            <div class="case-study-grid">
+                <!-- Fraud Detection -->
+                <article class="case-study-card fraud">
+                    <div class="case-icon">🏦</div>
+                    <div class="case-badge">Financial Services</div>
+                    <h3>Fraud Detection System</h3>
+                    <p>Production-ready implementation processing 50M daily transactions with 62% reduction in fraud losses and <100ms latency.</p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">$223.5M</span>
+                            <span class="metric-label">Annual Value</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">4,470x</span>
+                            <span class="metric-label">ROI</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">94ms</span>
+                            <span class="metric-label">p99 Latency</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Supplementary_Code_A_Fraud_Detection.ipynb" class="btn btn-case">Explore Implementation →</a>
+                </article>
+
+                <!-- Demand Forecasting -->
+                <article class="case-study-card retail">
+                    <div class="case-icon">🛒</div>
+                    <div class="case-badge">Retail</div>
+                    <h3>Demand Forecasting</h3>
+                    <p>Omnichannel forecasting across 450 stores × 50K SKUs with stockout detection, weather effects, and hierarchical predictions.</p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">11.8%</span>
+                            <span class="metric-label">MAPE</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$43M</span>
+                            <span class="metric-label">Capital Freed</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">6.8%</span>
+                            <span class="metric-label">Stockout Rate</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Supplementary_Code_B_Demand_Forecasting.ipynb" class="btn btn-case">Explore Implementation →</a>
+                </article>
+
+                <!-- Healthcare -->
+                <article class="case-study-card healthcare">
+                    <div class="case-icon">🏥</div>
+                    <div class="case-badge">Healthcare</div>
+                    <h3>Readmission Prediction</h3>
+                    <p>Fairness-aware AutoML for 30-day readmission risk with HIPAA compliance, multimodal EHR learning, and clinical interpretability.</p>
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <span class="metric-value">0.73</span>
+                            <span class="metric-label">AUC</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value"><3pp</span>
+                            <span class="metric-label">Fairness Gap</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$79.1M</span>
+                            <span class="metric-label">Annual Value</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/tomakk/OReillyAutoMLBook/blob/main/Supplementary_Code_C_Healthcare_Readmission.ipynb" class="btn btn-case">Explore Implementation →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started Section -->
+    <section id="getting-started" class="getting-started">
+        <div class="container">
+            <div class="section-header">
+                <h2>Getting Started</h2>
+                <p>Set up your environment and start learning in minutes</p>
+            </div>
+
+            <div class="setup-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Clone the Repository</h3>
+                    <div class="code-block">
+                        <code>git clone https://github.com/tomakk/OReillyAutoMLBook.git</code>
+                        <button class="copy-btn" aria-label="Copy code">📋</button>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Create Environment</h3>
+                    <div class="code-block">
+                        <code>conda create -n automl python=3.10 && conda activate automl</code>
+                        <button class="copy-btn" aria-label="Copy code">📋</button>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Install Dependencies</h3>
+                    <div class="code-block">
+                        <code>pip install autogluon torch tensorflow mlflow optuna</code>
+                        <button class="copy-btn" aria-label="Copy code">📋</button>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Launch Jupyter</h3>
+                    <div class="code-block">
+                        <code>jupyter lab</code>
+                        <button class="copy-btn" aria-label="Copy code">📋</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="requirements-note">
+                <h4>📋 Requirements</h4>
+                <ul>
+                    <li>Python 3.8+ (3.10 recommended)</li>
+                    <li>AutoGluon 1.3.2+ for latest features</li>
+                    <li>CUDA-capable GPU recommended for deep learning chapters</li>
+                    <li>16GB+ RAM for large-scale examples</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">Learning AutoML</span>
+                    <p>Code companion for O'Reilly Media publication</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://www.oreilly.com" target="_blank">O'Reilly Media</a></li>
+                        <li><a href="https://auto.gluon.ai" target="_blank">AutoGluon Docs</a></li>
+                        <li><a href="https://mlflow.org" target="_blank">MLflow</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="https://github.com/tomakk/OReillyAutoMLBook/issues" target="_blank">GitHub Issues</a></li>
+                        <li><a href="https://github.com/tomakk/OReillyAutoMLBook/discussions" target="_blank">Discussions</a></li>
+                        <li><a href="https://github.com/tomakk/OReillyAutoMLBook/wiki" target="_blank">Errata</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Learning AutoML. Code examples are MIT licensed.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
