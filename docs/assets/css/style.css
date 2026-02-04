@@ -680,9 +680,12 @@ ul {
 
 .setup-steps {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-lg);
     margin-bottom: var(--space-2xl);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .step {
@@ -876,10 +879,6 @@ ul {
 
     .case-study-grid .case-study-card:last-child {
         grid-column: span 2;
-    }
-
-    .setup-steps {
-        grid-template-columns: repeat(2, 1fr);
     }
 
     .footer-content {
