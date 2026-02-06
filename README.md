@@ -55,7 +55,7 @@
 
 ### Prerequisites
 
-- Python 3.8+ (3.10 recommended)
+- Python 3.10+ (3.11 recommended)
 - CUDA-capable GPU (recommended for deep learning chapters)
 - 16GB+ RAM for large-scale examples
 
@@ -69,7 +69,7 @@
 
 2. **Create a virtual environment**
    ```bash
-   conda create -n automl python=3.10
+   conda create -n automl python=3.11
    conda activate automl
    ```
 
